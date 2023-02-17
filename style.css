@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+}
+.btn{
+    
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: brown;
+}
+.section1{
+    background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+}
+.main-text h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 5rem;
+    margin-left: 30px;
+}
+.section1 button{
+    
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.img1{
+    /* display: inline-flex; */
+    /* background-image: url("https://images.unsplash.com/photo-1603287681836-b174ce5074c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym9keWJ1aWxkaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+    height: 100vh;
+
+
+}
+.section2{
+    margin-top: 80px;
+    /* display: flex;
+    justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-items: center;/ */
+    background-color: black;
+    /* height: 100vh; */
+}
+.section-3{
+    background-color: black;
+    color: white;
+}
+#maintext{
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    padding-top: 50px;
+    font-size: 100px ;
+}
+
+.section-3 .container{
+    margin-top: 40px;
+} 
+
+.section4{
+    background-color: black;
+    padding-top: 90px;
+}
+.section5{
+    
+    background-color: black;
+}
+
+.editme:hover{
+    transform: scale(1.25);
+    box-shadow: 0 25px 25px rgb(255, 0, 0,.5);
+}
+section.pricing {
+    background: #000000;
+    background: linear-gradient(to right, #000000, #000000);
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+  /* ==========>>>>>>>>section6=================>>>>>>>>>> */
+  .section6{
+      background-color: black;
+  }
+  .section7{
+      background-color: black;
+  }
+
+
+  .textme:hover {
+
+      text-decoration: underline red ;
+      font-weight: bold;
+      color: red;
+
+
+  }
+  .section8main{
+    display: inline-block;
+  }
